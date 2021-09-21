@@ -16,9 +16,6 @@
     },
     {"name":"bash",
      "regex":"#!/bin/sh"
-    },
-    {"name":"import test",
-     "regex":"import"
     }
 ]
 }
