@@ -31,13 +31,11 @@ def pasta():
                         p_k = (k['key'])
                         p_get = requests.get(p_sc)
                         xcheck = re.match(f'{xreg}', p_get.text)
-                        print(xcheck, xreg, p_k)                   
                         if  xcheck is not None :
                                 logging.info(f'Regex Rule:{xnam} Matched! - {pastebin}{p_k}')
                                 with open(f'{xnam}-{p_k}.txt', 'w') as pasta:
                                         p_out = pasta.write(f'{p_get.text}')
                         elif xcheck is None :
-                                print(xnam, xreg, 'no match')
                                 continue
              
                                          
@@ -50,3 +48,6 @@ while restart:
         except Exception as e:
                 logging.error(traceback.format_exc())
                 restart=True
+
+
+
