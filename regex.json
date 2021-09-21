@@ -1,0 +1,24 @@
+{"regex_pasta":[
+    {"name": "b64 PE",
+     "regex": "TV(oA|pB|pQ|qA|qQ|ro)"
+    },
+    {"name":"TOR Link",
+     "regex":".*.\\.onion"
+    },
+    {"name":"Powershell IEX",
+     "regex":"iex"
+    },
+    {"name":"Powershell",
+     "regex":"invoke-expression|downloadstring|new-obj"
+    },
+    {"name":"Bitcoin Address",
+     "regex":"[13][a-km-zA-HJ-NP-Z1-9]{25,34}"
+    },
+    {"name":"bash",
+     "regex":"#!/bin/sh"
+    },
+    {"name":"import test",
+     "regex":"import"
+    }
+]
+}
