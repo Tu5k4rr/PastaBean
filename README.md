@@ -18,7 +18,7 @@ First created back in 2017. I have re-written the code to handle errors and plac
 - Python Requests - `pip3 install requests`
 
 ## Usage
-- Run code - `python3 PasteBean.py`
+- Run code - `python3 PastaBean.py`
 
 ## Contact
 If you have an queries, ideas or want to contribute to make the code better please reach out to the below;
